@@ -1,4 +1,4 @@
-export default function mainReducer(state, action) {
+export default function mainReducer(state={}, action) {
   switch (action.type) {
     case "SAVE_NEW_LIST":
       return state;
