@@ -7,6 +7,7 @@ import {BrowserRouter} from "react-router-dom"
 import registerServiceWorker from './registerServiceWorker';
 import store from './store/configStore';
 import {Provider} from 'react-redux'
+
 const store = configureStore();
 
 
