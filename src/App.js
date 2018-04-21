@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import NavBar from './components/navbar';
+import CreatePlayList from './components/createPlaylist'
+import Playlists from './components/Playlists'
+import PaintAllPlaylists from './components/PaintAllPlaylists'
 
 import './App.css';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
-        
+        <CreatePlayList/>
+        <PaintAllPlaylists/>
+        <Playlists />
       </div>
     );
   }
 }
 
-export default App;
+
